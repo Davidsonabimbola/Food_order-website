@@ -26,12 +26,13 @@ const Navbar = () => {
             </div>
             </div>
             {/* search*/}
-            <div className=' w-[200px] sm:w-[400px] md:w-[500px] h-8 bg-gray-400 rounded-full flex items-center px-2 relative'>
+            <div className=' w-[200px] sm:w-[200px] md:w-[500px] h-8 bg-gray-400 rounded-full flex items-center px-2 relative
+            ml-[-10px] mr-3'>
                 <img src='../searchicon.png' alt='search'/>
                 <input className=' bg-transparent focus:outline-none w-full' placeholder='search' type='text'/>
 </div>
         {/* cart button */}
-        <button className=' flex items-center h-12 rounded-full md:w-40 sm:w-[80px] mr-2 justify-center gap-1 bg-black text-white'>
+        <button className=' flex items-center h-12 md:w-40 sm:w-[80px] mr-2 justify-center gap-1 bg-black text-white rounded-2xl'>
             <img className=' w-8 h-8 sm: pl-3' src='../cart.png' alt='cart' />
             <p className=" sm: pr-3">Cart</p>
         </button>
