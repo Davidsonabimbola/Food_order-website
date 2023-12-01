@@ -32,9 +32,10 @@ const Navbar = () => {
                 <input className=' bg-transparent focus:outline-none w-full' placeholder='search' type='text'/>
 </div>
         {/* cart button */}
-        <button className=' flex items-center h-12 md:w-40 sm:w-[80px] mr-2 justify-center gap-1 bg-black text-white rounded-2xl'>
-            <img className=' w-8 h-8 sm: pl-3' src='../cart.png' alt='cart' />
-            <p className=" sm: pr-3">Cart</p>
+        <button className=' flex items-center h-12 md:w-40 w-[120px] mr-2 justify-center gap-1 bg-black text-white rounded-2xl'>
+            <img className=' w-8 h-8 sm: justify-center flex  ' src='../cart.png' alt='cart' />
+            <p className=" hidden md:flex ">Cart</p>
+            {/* <p className=" sm: pr-3">Cart</p> */}
         </button>
 
 {/* mobile menu */}
